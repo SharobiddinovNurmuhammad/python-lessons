@@ -1,3 +1,4 @@
-# python-lessons
-
-# Sariqdev amaliyot yechimlari
+# Python Lessons
+* Codeis
+* Projects
+* Practice
