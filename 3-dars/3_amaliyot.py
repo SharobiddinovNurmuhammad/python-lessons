@@ -29,9 +29,9 @@ print(manzil)
 
 #-----------------------------------------
 
-print(manzil.title())
 print(manzil.upper())
 print(manzil.lower())
+print(manzil.title())
 print(manzil.capitalize())
 
 #----------------------------------------
