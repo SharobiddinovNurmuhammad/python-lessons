@@ -1,5 +1,4 @@
 #Sonlar 
-
 #--------------------------------------------
 
 number = float(input("Son kiriting: "))

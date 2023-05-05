@@ -1,5 +1,4 @@
 # String va uning metodlari
-
 #----------------------------------------
 
 kocha = "Bog'bon"
