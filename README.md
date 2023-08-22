@@ -1,3 +1,0 @@
-﻿# python-lessons
-* Lessons
-* Projects

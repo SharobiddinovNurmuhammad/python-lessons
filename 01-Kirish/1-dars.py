@@ -7,9 +7,9 @@ print("\"Nexia\", \"Tico\", 'Damas' ko'rganlar qilar havas.")
 #--------------------------------------
 
 print("5 ning 4-darajasi", 5**4, "ga teng.")
-print("22 ni 4 ga bo'lganda qoldiq", 22%4, "ga teng.")
+print("22 ni 4 ga bo'lganda qoldiq", 22 % 4, "ga teng.")
 print("Tamonlari 125 ga teng kvadratning yuzi =", 125**2, ", perimetri =", 125*4, "ga teng")
-print("Diametri 12 ga teng doira yuzi =", 3.14*(12/2)**2)
+print("Diametri 12 ga teng doira yuzi =", 3.14 * (12 / 2) ** 2)
 
 #--------------------------------------
 
