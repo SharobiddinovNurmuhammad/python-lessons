@@ -1,3 +1,4 @@
+"https://github.com/cmcooling/Introduction-to-Python/"
 #O'zgaruvchilar
 #------------------------------------------------
 
@@ -18,7 +19,7 @@ print(xabar)
 
 radius = 5
 pi = 3.1415
-yuza = pi * radius**2
+yuza = pi * radius ** 2
 print("Radiusi", radius, "ga teng aylana yuzi =", yuza)
 
 #------------------------------------------------
