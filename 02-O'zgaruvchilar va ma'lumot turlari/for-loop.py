@@ -2,20 +2,20 @@
 
 #--------------------------------------
 
-ismlar = ['Hasan', 'Husan', 'Ali', 'Vali', 'Karim']
-n = 0
-for ism in ismlar:
-    print(f"Assalomu alaykum, {ism}")
-    n += 1
-print(f"Kod {n} marta takrorlandi")
+names = ['Hasan', 'Husan', 'Ali', 'Vali', 'Karim']
+user_count = 0
+for name in names:
+    print(f"Assalomu alaykum, {name}")
+    user_count += 1
+print(f"Kod {user_count} marta takrorlandi")
 
 #--------------------------------------
 
-toq_sonlar = []
-for son in range(10, 100):
-    if son % 2 != 0:
-        toq_sonlar.append(son)
-print(toq_sonlar)
+odd_numbers = []
+for number in range(10, 100):
+    if number % 2 != 0:
+        odd_numbers.append(number)
+print(odd_numbers)
 
 #--------------------------------------
 
