@@ -1,0 +1,39 @@
+Fayllar bilan ishlash
+
+Fayli to'lqi o'qish uchun quyidagi kodni yozamiz:
+
+with open('pi.txt') as fayl:
+    pi = fayl.read()
+
+.replace() metodi matn tarkibidagi biror harf yoki belgini boshqa harf yoki belgi bilan almashtirish uchun ishlatiladi.
+
+Windowsda papkalar orasida "\" belgisi ishlatilsada, Pythonda "/" belgisini ishlataveramiz. Agar \ belgisini ishlatishni istasangiz, bu belgini 2 marta yozing: C:\\python\\darslar\\data
+
+FAYLNI QATORMA-QATOR OʻQISH
+
+filename = 'data/talabalar.txt'
+with open(filename) as file:
+    for line in file:
+        print(line)
+
+Qatorlarni ro'yxat ko'rinishida saqlab olish uchun, .readlines() metodidan foydalanamiz.
+
+with open(filename) as file:
+    talabalar = file.readlines()
+
+print(talabalar)
+
+YANGI FAYLGA YOZISH
+
+faylnomi = 'ustozlar.txt'# ochilayotgan (yaratilayotgan) fayl nomi
+with open(faylnomi,'w') as fayl:
+    fayl.write('anvar narzullaev') # faylga yozilayotgan ma'lumot
+
+Diqqat!!! open() funksiyasini 'w' argumenti bilan chaqirganimizda ehtiyot bo'lishimiz kerak, sababi agar bunday fayl mavjud bo'lsa, uning ichidagi barcha ma'lumotlar o'chib ketadi.
+
+FAYLGA MA'LUMOT QO'SHISH
+
+with open(faylnomi,'a') as fayl:
+    fayl.write('Alijon Valiyev\n')
+    fayl.write('2000')
+
