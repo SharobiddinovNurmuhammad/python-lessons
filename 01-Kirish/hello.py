@@ -1,4 +1,4 @@
-# Print funksiyasi, Arifmetik amallar
+# Print function, Arifmetik amallar
 
 print("Hello, World!")
 
